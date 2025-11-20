@@ -1,0 +1,8 @@
+curl -X 'POST' \
+  'https://localhost:7230/api/Authentication/token' \
+  -H 'accept: */*' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "username": "BFX100001",
+  "password": "123"
+}'
