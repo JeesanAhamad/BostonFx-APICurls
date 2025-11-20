@@ -1,0 +1,4 @@
+curl -X 'GET' \
+  'https://localhost:7230/Dashboard' \
+  -H 'accept: text/plain' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwibmFtZSI6IkJGWDEwMDAwMSIsImVtYWlsIjoiZGVtb0BnbWFpbC5jb20iLCJyb2xlIjoiVXNlciIsIm5iZiI6MTc2MzYxOTM3MCwiZXhwIjoxNzYzNzA1NzcwLCJpYXQiOjE3NjM2MTkzNzAsImlzcyI6Ikhhc25haW4iLCJhdWQiOiJIYXNuYWluLWNsaWVudCJ9.Ry4cC8Mc0sMvP33XIYyPeq7b_M0BoY8KawYZDdLndqU'
