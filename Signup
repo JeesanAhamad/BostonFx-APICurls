@@ -1,0 +1,13 @@
+curl -X 'POST' \
+  'https://localhost:7230/api/Authentication/SignUp' \
+  -H 'accept: */*' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwibmFtZSI6IkJGWDEwMDAwMSIsImVtYWlsIjoiZGVtb0BnbWFpbC5jb20iLCJyb2xlIjoiVXNlciIsIm5iZiI6MTc2MzYxOTM3MCwiZXhwIjoxNzYzNzA1NzcwLCJpYXQiOjE3NjM2MTkzNzAsImlzcyI6Ikhhc25haW4iLCJhdWQiOiJIYXNuYWluLWNsaWVudCJ9.Ry4cC8Mc0sMvP33XIYyPeq7b_M0BoY8KawYZDdLndqU' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "sponsorID": "BFX100001",
+  "name": "Jeesan",
+  "email": "demoa@gmail.com",
+  "country": "india",
+  "mobile": "9876543211",
+  "password": "123"
+}'
